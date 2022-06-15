@@ -1,0 +1,44 @@
+{
+  "bookList": [
+    {
+      "bookName": "Dune",
+      "year": "1965",
+      "authorName": "Frank Herbert",
+      "id": 3
+    },
+    {
+      "bookName": "Enders Game",
+      "year": "1985",
+      "authorName": "Orson Scott Card",
+      "id": 4
+    },
+    {
+      "bookName": "1984",
+      "year": "1949",
+      "authorName": "George Orwell",
+      "id": 5
+    },
+    {
+      "bookName": "Fahrenheit",
+      "year": "1953",
+      "authorName": "Ray Bradbury",
+      "id": 6
+    },
+    {
+      "bookName": "Brave new world",
+      "year": "1932",
+      "authorName": "Aldous Huxely",
+      "id": 7
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
