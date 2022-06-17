@@ -1,27 +1,21 @@
 <h1 mat-dialog-title>Add Book</h1>
 <div mat-dialog-content>
-<form [formGroup]="bookForm">
-
- <mat-form-field appearance="outline">
-    <mat-label>Book Title</mat-label>
-    <input formControlName="bookName" matInput placeholder="bookName">    
-  </mat-form-field>
-  <mat-form-field appearance="outline">
-    <mat-label>Year</mat-label>
-    <input formControlName="year" matInput placeholder="year">
-    
-  </mat-form-field>
-  <mat-form-field appearance="outline">
-    <mat-label>Author Name</mat-label>
-    <input formControlName="authorName" matInput placeholder="authorName">
-    
-  </mat-form-field>
-
-</form>
- 
+  <form [formGroup]="bookForm">
+    <mat-form-field appearance="outline">
+      <mat-label>Book Title</mat-label>
+      <input formControlName="bookName" matInput placeholder="bookName">
+    </mat-form-field>
+    <mat-form-field appearance="outline">
+      <mat-label>Year</mat-label>
+      <input formControlName="year" matInput placeholder="year">
+    </mat-form-field>
+    <mat-form-field appearance="outline">
+      <mat-label>Author Name</mat-label>
+      <input formControlName="authorName" matInput placeholder="authorName">
+    </mat-form-field>
+  </form>
 </div>
 <div mat-dialog-action [align]="'end'">
-<button mat-raised-button color="warn" mat-dialog-close>Close</button>
-<button style="margin-left:8px;" mat-raised-button color="primary" (click)="addBook()" >{{actionbtn}}</button>
+  <button mat-raised-button color="warn" mat-dialog-close>Close</button>
+  <button style="margin-left:8px;" mat-raised-button color="primary" (click)="addBook()">{{actionbtn}}</button>
 </div>
-
